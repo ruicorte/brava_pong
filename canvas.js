@@ -99,14 +99,14 @@ let game = {
 		this.p1 = {
 			posX: cv.width/2,
 			posY: cv.height/20,
-			w: 100,
+			w: 125,
 			h: 20,
 			score: 0
 		}
 		this.p2 = {
 			posX: cv.width/2,
 			posY: cv.height/20*19,
-			w: 100,
+			w: 125,
 			h: 20,
 			score: 0
 		}
