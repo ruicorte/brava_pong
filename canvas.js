@@ -6,7 +6,7 @@ let game = {
 	p1: {},
 	p2: {},
 	ball: {},
-	winScore: 3,
+	winScore: 5,
 	playersVel: 10,
 	ballMaxVelX: 15,
 	keyboard: [],
@@ -99,14 +99,14 @@ let game = {
 		this.p1 = {
 			posX: cv.width/2,
 			posY: cv.height/20,
-			w: 80,
+			w: 100,
 			h: 20,
 			score: 0
 		}
 		this.p2 = {
 			posX: cv.width/2,
 			posY: cv.height/20*19,
-			w: 80,
+			w: 100,
 			h: 20,
 			score: 0
 		}
